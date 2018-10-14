@@ -50,7 +50,6 @@ budget_output = pd.DataFrame({"Total Number of Months":[total_num_months],
                             "Avg Profit/Loss Change in $":[average_change],
                             "Greatest Monthly Profit Increase in $":greatest_inc_profit_date_list,
                             "Greatest Monthly Profit Decrease in $":greatest_dec_profit_date_list}, index=[''])
-budget_output
 
 # Print summary in terminal in requested style
 print("Financial Analysis")
